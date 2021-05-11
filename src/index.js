@@ -1,7 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "./style.css";
 
 function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <div>
+      <h1 style={{ textAlign: "center" }}>Hello World</h1>
+      <button className="button">Heyyy</button>
+    </div>
+  );
 }
+
 ReactDOM.render(<App />, document.getElementById("root"));
